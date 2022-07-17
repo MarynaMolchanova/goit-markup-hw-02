@@ -5,9 +5,10 @@
 }
 
 .page {
-  background: #ececec;
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
+  font-size: 14px;
+  text-decoration: none;
 }
 
 ul {
@@ -16,7 +17,7 @@ ul {
 
 .logo {
   color: var(--primary-text-color);
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -33,15 +34,12 @@ ul {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
 }
 
 .site-nav .links:hover,
 .site-nav .links:focus,
-.site-nav .links:active {
-  color: var(--accents);
-}
-
+.site-nav .links:active,
 .site-nav .links.current {
   color: var(--accents);
 }
@@ -54,43 +52,47 @@ ul {
   color: var(--hero-and-footer-color);
   font-weight: 900;
   font-size: 44px;
-  line-height: 1, 4;
+  line-height: 1.4;
   text-align: center;
+}
+
+.hero-section {
+  background-color: #2f303a;
 }
 
 .button {
   color: var(--hero-and-footer-color);
   background-color: var(--accents);
   cursor: pointer;
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1, 875;
+  line-height: 1.88;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
 }
 
 .button:hover {
-  color: var(--primary-text-color);
-  background-color: var(--hero-and-footer-color);
+  background-color: #188ceb;
 }
 
 .offers {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
 }
 .offers-view {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 7;
+  line-height: 1.7;
   color: #757575;
 }
 
 .section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 2;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -98,13 +100,13 @@ ul {
 .team-member {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 2;
+  line-height: 1.2;
 }
 
 .profession {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 2;
+  line-height: 1.2;
   color: #757575;
 }
 
@@ -115,12 +117,14 @@ ul {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 62;
+  line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
 }
 
-.button-portfolio:hover {
+.button-portfolio:hover,
+.button-portfolio:focus,
+.button-portfolio.current {
   color: var(--hero-and-footer-color);
   background-color: var(--accents);
 }
@@ -131,12 +135,14 @@ ul {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
+  text-decoration: none;
+  text-decoration-line: none;
 }
 
 .type {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 875;
+  line-height: 1.88;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -147,6 +153,11 @@ ul {
 
 .contacts {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
 }
 
 .contacts:hover,
@@ -159,6 +170,10 @@ ul {
 
 .contacts.footer {
   color: var(--hero-and-footer-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 .contacts.footer:hover,
@@ -172,7 +187,7 @@ ul {
 .contacts.footer.grey {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
