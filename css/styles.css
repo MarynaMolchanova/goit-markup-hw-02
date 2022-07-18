@@ -2,6 +2,7 @@
   --primary-text-color: #212121;
   --accents: #2196f3;
   --hero-and-footer-color: #ffffff;
+  --contacts-color: #757575;
 }
 
 .page {
@@ -9,6 +10,12 @@
   font-family: Roboto, sans-serif;
   font-size: 14px;
   text-decoration: none;
+  text-decoration-line: none;
+}
+
+.a {
+  text-decoration: none;
+  text-decoration-line: none;
 }
 
 ul {
@@ -86,7 +93,7 @@ ul {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
-  color: #757575;
+  color: var(--contacts-color);
 }
 
 .section-title {
@@ -107,7 +114,7 @@ ul {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
-  color: #757575;
+  color: var(--contacts-color);
 }
 
 .button-portfolio {
@@ -144,7 +151,7 @@ ul {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--contacts-color);
 }
 
 .logo-footer {
@@ -157,15 +164,12 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--contacts-color);
 }
 
 .contacts:hover,
 .contacts:focus {
   color: var(--accents);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
 }
 
 .contacts.footer {
@@ -179,9 +183,6 @@ ul {
 .contacts.footer:hover,
 .contacts.footer:focus {
   color: var(--accents);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
 }
 
 .contacts.footer.grey {
@@ -195,9 +196,6 @@ ul {
 .contacts.footer.grey:hover,
 .contacts.footer.grey:focus {
   color: var(--accents);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
 }
 
 .footer {
